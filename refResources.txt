@@ -1,0 +1,21 @@
+OpenXML SDK: 操作Office文件的API
+https://github.com/dotnet/Open-XML-SDK
+
+Open XML SDK 2.5 Productivity Tool: 可分析Excel檔案異常原因，以及產出Excel對應的程式碼
+https://github.com/dotnet/Open-XML-SDK/releases/tag/v2.5
+
+openmcdf: 可用來打包Office嵌入的OLE Object
+https://github.com/ironfede/openmcdf
+
+Compound File Explorer: 用來瀏覽 OLE物件結構，並可輸出部分區段以供比對
+https://sourceforge.net/projects/openmcdf/files/Sample%20Compound%20File%20Viewer/
+
+OfficeExtrator: OLE檔案讀取的程式碼，可做為產出OLE物件的參考
+https://github.com/Sicos1977/OfficeExtractor/tree/master/OfficeExtractor/Ole
+
+OLEPackagerFormat: OLE物件格式參考
+https://github.com/idiom/OLEPackagerFormat
+
+OLE MSDN: OLE物件格式參考
+https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-oleds/142e0420-2f74-4ed9-829b-0b3d5a684d01
+

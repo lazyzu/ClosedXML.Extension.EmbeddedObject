@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net452;netstandard2.1</TargetFrameworks>
+    <Version>0.0.1</Version>
+    <LangVersion>latest</LangVersion>
+    <IsPackable>true</IsPackable>
+    <PackageProjectUrl>https://github.com/lazyzu/ClosedXML.Extension.EmbeddedObject</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/lazyzu/ClosedXML.Extension.EmbeddedObject</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenMcdf" Version="2.3.0" />
+	  <PackageReference Include="PathLib" Version="0.9.8" />
+  </ItemGroup>
+  
+  <ItemGroup Condition="'$(TargetFramework)' == 'net452'">
+    <PackageReference Include="ClosedXML" Version="0.96.0" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
+    <PackageReference Include="ClosedXML" Version="0.102.2" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Remove="Appender\Icon\**\*" />
+    <EmbeddedResource Include="Appender\Icon\**\*" />
+  </ItemGroup>
+</Project>
