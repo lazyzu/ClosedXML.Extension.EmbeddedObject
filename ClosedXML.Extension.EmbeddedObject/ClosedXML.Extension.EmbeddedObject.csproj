@@ -10,8 +10,10 @@
     </PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)'=='Release'">
+		<PackageId>lazyzu.ClosedXML.Extension.EmbeddedObject</PackageId>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 
 		<!-- Sourcelink: https://github.com/dotnet/sourcelink/ -->
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
