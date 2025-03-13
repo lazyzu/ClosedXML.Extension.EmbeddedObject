@@ -3,6 +3,9 @@ About ClosedXML.Extension.EmbeddedObject:
 `ClosedXML.Extension.EmbeddedObject` is a .NET library for embedding OLE objects when using [ClosedXML](https://github.com/ClosedXML/ClosedXML)
 And currently, it only supports embedding and does not support reading, updating, or deleting actions.
 
+> [!NOTE]
+> Supports ClosedXML versions 0.96.0 and later, except for 0.103.x and 0.104.x due to the [not strongly named](https://github.com/ClosedXML/ClosedXML/issues/2423) issue.
+
 Using ClosedXML.Extension.EmbeddedObject:
 =================
 * Basic usage
