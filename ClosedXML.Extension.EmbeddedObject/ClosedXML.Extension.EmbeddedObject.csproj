@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
 	<TargetFrameworks>net452;netstandard2.1</TargetFrameworks>
-        <Version>0.0.1-1</Version>
+        <Version>0.0.2</Version>
         <LangVersion>latest</LangVersion>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<Authors>lazyzu</Authors>
