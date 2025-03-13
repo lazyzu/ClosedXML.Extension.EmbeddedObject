@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
 	<TargetFrameworks>net452;netstandard2.1</TargetFrameworks>
-        <Version>0.0.2</Version>
+        <Version>0.0.2-hotfix1</Version>
         <LangVersion>latest</LangVersion>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<Authors>lazyzu</Authors>
@@ -23,8 +23,8 @@
 	</PropertyGroup>
 	
     <ItemGroup>
-      <PackageReference Include="OpenMcdf" Version="[2.3.0,)" />
-      <PackageReference Include="PathLib" Version="[0.9.8,)" />
+      <PackageReference Include="OpenMcdf" Version="[2.3.0,3.0.0]" />
+      <PackageReference Include="PathLib" Version="[0.9.8,1.0.0]" />
     </ItemGroup>
   
     <ItemGroup Condition="'$(TargetFramework)' == 'net452'">
@@ -32,7 +32,7 @@
     </ItemGroup>
 
     <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
-      <PackageReference Include="ClosedXML" Version="[0.102.2,)"  />
+      <PackageReference Include="ClosedXML" Version="[0.102.2,1.0.0]"  />
     </ItemGroup>
   
     <ItemGroup>
